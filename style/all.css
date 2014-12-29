@@ -1,0 +1,729 @@
+@charset "utf-8";
+@import "type";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 0px;
+  padding:0px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 10px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.introvid video {
+  width: 100vw;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.outrovid video {
+  width: 100vw;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.outrovid p{
+  text-align:center;
+  z-index: 1;
+  display:block;
+  
+}
+
+.intro {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+.inside {
+  background-color: rgba(0,0,0,0.2);
+  padding: 1em;
+}
+
+.human01 {
+  background: url(../headshots/01adeleyeIbukunFayo.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human02 {
+  background: url(../headshots/02lanre.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human03 {
+  background: url(../headshots/03jonesWesley.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human04 {
+  background: url(../headshots/04aniJibby.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human05 {
+  background: url(../headshots/05ideraSade.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human06 {
+  background: url(../headshots/06boruKeerthi.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human07 {
+  background: url(../headshots/07edmondsIsaiah.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human08 {
+  background: url(../headshots/08josephKeith.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human09 {
+  background: url(../headshots/09ajithArchana.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human10 {
+  background: url(../headshots/10aliyuZai.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human11 {
+  background: url(../headshots/11delarosaAlexis.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human12 {
+  background: url(../headshots/12anandSwathi.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human13 {
+  background: url(../headshots/13baileyJordan.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human14 {
+  background: url(../headshots/14cJess.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human15 {
+  background: url(../headshots/15kodiNeha.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human16 {
+  background: url(../headshots/16singhShana.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human17 {
+  background: url(../headshots/17taylorAmaya.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human18 {
+  background: url(../headshots/18patelChanda.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human19 {
+  background: url(../headshots/19deleonLynzky.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human20 {
+  background: url(../headshots/20moiseStephane.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human21 {
+  background: url(../headshots/20sunSteven.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human22 {
+  background: url(../headshots/21yeAlice.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human23 {
+  background: url(../headshots/22ahmedSam.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human24 {
+  background: url(../headshots/23linJarret.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human25 {
+  background: url(../headshots/24wooSohee.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human26 {
+  background: url(../headshots/25aeuyeungAllison.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human27 {
+  background: url(../headshots/26liangAngela.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+
+.human28 {
+  background: url(../headshots/27chouMolly.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human29 {
+  background: url(../headshots/28ragazzoKira.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human30 {
+  background: url(../headshots/29kongLiana.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human31 {
+  background: url(../headshots/30goldsteinLauren.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human32 {
+  background: url(../headshots/31kimJay.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human33 {
+  background: url(../headshots/32choMichelle.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human34 {
+  background: url(../headshots/33onoAntonio.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human35 {
+  background: url(../headshots/34shenJessica.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human36 {
+  background: url(../headshots/35wangJason.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human37 {
+  background: url(../headshots/36hoKendra.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human38 {
+  background: url(../headshots/37yerlanDina.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human39 {
+  background: url(../headshots/39demlerAya.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human40 {
+  background: url(../headshots/40kimHannah.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human41 {
+  background: url(../headshots/41ratanalertChanamon.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human42 {
+  background: url(../headshots/42essexChristopher.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human43 {
+  background: url(../headshots/43huangEileen.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human44 {
+  background: url(../headshots/44thomasLeila.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human45 {
+  background: url(../headshots/45jiHwang.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human46 {
+  background: url(../headshots/46kimJohn.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human47 {
+  background: url(../headshots/47bouraiAbdelwahab.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human48 {
+  background: url(../headshots/50shenCecilia.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human49 {
+  background: url(../headshots/49yoonJane.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human50 {
+  background: url(../headshots/51huangGina.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human51 {
+  background: url(../headshots/52chenYutong.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human52 {
+  background: url(../headshots/53criglerAmelia.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human53 {
+  background: url(../headshots/54heXuran.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human54 {
+  background: url(../headshots/56uphoffJessica.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human55 {
+  background: url(../headshots/57changSabrina.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human56 {
+  background: url(../headshots/58winthrowJenna.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human57 {
+  background: url(../headshots/59zemeringLauren.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human58 {
+  background: url(../headshots/60hackerEmmy.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human59 {
+  background: url(../headshots/62paparisDanae.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human60 {
+  background: url(../headshots/63townsendCharlotte.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human61 {
+  background: url(../headshots/64chenAmy.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human62 {
+  background: url(../headshots/66buchwaldMiriam.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human63 {
+  background: url(../headshots/67zhengCatherine.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human64 {
+  background: url(../headshots/68jeffsAJ.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human65 {
+  background: url(../headshots/69wolfNoah.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human66 {
+  background: url(../headshots/70chambersDelaney.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human67 {
+  background: url(../headshots/71felbingerBrenan.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human68 {
+  background: url(../headshots/72fieldsSaraRemi.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human69 {
+  background: url(../headshots/73liuBecki.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human70 {
+  background: url(../headshots/74walkerAlex.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human71 {
+  background: url(../headshots/75gardnerDavid.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human72 {
+  background: url(../headshots/76nelsonJillian.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human73 {
+  background: url(../headshots/77michelLaurel.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human74 {
+  background: url(../headshots/78brahmBella.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human75 {
+  background: url(../headshots/79kellyKeith.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human76 {
+  background: url(../headshots/80liArissa.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human77 {
+  background: url(../headshots/81frazierKatherine.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human78 {
+  background: url(../headshots/82cavilaroRachel.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human79 {
+  background: url(../headshots/83bergeronZach.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+.human80 {
+  background: url(../headshots/84cliffordColleen.jpg) no-repeat center center;
+  -webkit-background-size: 100% 100%; /* For WebKit*/
+  -moz-background-size: 100% 100%;    /* Mozilla*/
+  -o-background-size: 100% 100%;      /* Opera*/
+  background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
